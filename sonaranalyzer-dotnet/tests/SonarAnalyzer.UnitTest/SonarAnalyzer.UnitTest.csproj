@@ -1,0 +1,84 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>..\SonarAnalyzer.Test.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.6.0" />
+    <PackageReference Include="FluentAssertions.Analyzers" Version="0.11.4" />
+    <PackageReference Include="Moq" Version="4.10.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+    <PackageReference Include="NuGet.Core" Version="2.14.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.Common" Version="2.10.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="2.10.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic.Workspaces" Version="2.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="TestCases\**\*" />
+    <None Include="TestCases\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Compile Remove="TestCasesForRuleFailure\**\*" />
+    <None Include="TestCasesForRuleFailure\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ResourceTests\SomeResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SomeResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Update="ResourceTests\SomeResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SomeResources.resx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\..\src\SonarLint.xml">
+      <Link>Properties\SonarLint.xml</Link>
+    </AdditionalFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ResourceTests\SonarLint.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Common\Resources\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\AssemblyInfo.Shared.cs">
+      <Link>Properties\AssemblyInfo.Shared.cs</Link>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SonarAnalyzer.Common\SonarAnalyzer.Common.csproj" />
+    <ProjectReference Include="..\..\src\SonarAnalyzer.CSharp\SonarAnalyzer.CSharp.csproj">
+      <Aliases>global,csharp</Aliases>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\SonarAnalyzer.RuleDescriptorGenerator\SonarAnalyzer.RuleDescriptorGenerator.csproj" />
+    <ProjectReference Include="..\..\src\SonarAnalyzer.Utilities\SonarAnalyzer.Utilities.csproj" />
+    <ProjectReference Include="..\..\src\SonarAnalyzer.VisualBasic\SonarAnalyzer.VisualBasic.csproj">
+      <Aliases>global,vbnet</Aliases>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>

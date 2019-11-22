@@ -1,0 +1,20 @@
+<p>While it is technically correct to assign to parameters from within method bodies, doing so before the parameter value is read is likely a bug.
+Instead, initial values of parameters, caught exceptions, and foreach parameters should be, if not treated as <code>final</code>, then at least read
+before reassignment.</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+public void DoTheThing(string str, int i, List&lt;string&gt; strings)
+{
+  str = i.ToString(i);  // Noncompliant
+
+  foreach (var s in strings)
+  {
+    s = "hello world";  // Noncompliant
+  }
+}
+</pre>
+<h2>See</h2>
+<ul>
+  <li> MISRA C:2012, 17.8 - A function parameter should not be modified </li>
+</ul>
+

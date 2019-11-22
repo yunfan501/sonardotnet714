@@ -1,0 +1,160 @@
+{
+"issues":  [
+{
+"id":  "S2357",
+"message":  "Make 'IMDBURL' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMDB.vb",
+"region":  {
+"startLine":  77,
+"startColumn":  16,
+"endLine":  77,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'UseOFDBGenre' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMDB.vb",
+"region":  {
+"startLine":  78,
+"startColumn":  16,
+"endLine":  78,
+"endColumn":  28
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'UseOFDBOutline' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMDB.vb",
+"region":  {
+"startLine":  79,
+"startColumn":  16,
+"endLine":  79,
+"endColumn":  30
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'UseOFDBPlot' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMDB.vb",
+"region":  {
+"startLine":  80,
+"startColumn":  16,
+"endLine":  80,
+"endColumn":  27
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'UseOFDBTitle' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMDB.vb",
+"region":  {
+"startLine":  81,
+"startColumn":  16,
+"endLine":  81,
+"endColumn":  28
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'IMDBURL' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMPA.vb",
+"region":  {
+"startLine":  33,
+"startColumn":  16,
+"endLine":  33,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'IMDBURL' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeMPDB.vb",
+"region":  {
+"startLine":  33,
+"startColumn":  16,
+"endLine":  33,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'IMDBURL' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeTMDB.vb",
+"region":  {
+"startLine":  29,
+"startColumn":  16,
+"endLine":  29,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'IMDBURL' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeTrailers.vb",
+"region":  {
+"startLine":  33,
+"startColumn":  12,
+"endLine":  33,
+"endColumn":  19
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'IMDBURL' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\dlgIMDBSearchResults.vb",
+"region":  {
+"startLine":  28,
+"startColumn":  12,
+"endLine":  28,
+"endColumn":  19
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'IMDBURL' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\dlgImgSelect.vb",
+"region":  {
+"startLine":  31,
+"startColumn":  12,
+"endLine":  31,
+"endColumn":  19
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'IMDBURL' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\dlgTrailer.vb",
+"region":  {
+"startLine":  29,
+"startColumn":  12,
+"endLine":  29,
+"endColumn":  19
+}
+}
+}
+]
+}

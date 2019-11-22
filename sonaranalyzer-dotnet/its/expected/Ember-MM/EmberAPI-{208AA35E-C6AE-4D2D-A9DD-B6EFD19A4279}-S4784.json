@@ -1,0 +1,95 @@
+{
+"issues":  [
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIMediaInfo.vb",
+"region":  {
+"startLine":  393,
+"startColumn":  42,
+"endLine":  393,
+"endColumn":  110
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIMediaInfo.vb",
+"region":  {
+"startLine":  527,
+"startColumn":  34,
+"endLine":  527,
+"endColumn":  98
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPINFO.vb",
+"region":  {
+"startLine":  441,
+"startColumn":  55,
+"endLine":  441,
+"endColumn":  211
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPINFO.vb",
+"region":  {
+"startLine":  616,
+"startColumn":  59,
+"endLine":  616,
+"endColumn":  215
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIStringUtils.vb",
+"region":  {
+"startLine":  308,
+"startColumn":  169,
+"endLine":  308,
+"endColumn":  236
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIStringUtils.vb",
+"region":  {
+"startLine":  317,
+"startColumn":  16,
+"endLine":  317,
+"endColumn":  119
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIStringUtils.vb",
+"region":  {
+"startLine":  349,
+"startColumn":  12,
+"endLine":  349,
+"endColumn":  78
+}
+}
+}
+]
+}

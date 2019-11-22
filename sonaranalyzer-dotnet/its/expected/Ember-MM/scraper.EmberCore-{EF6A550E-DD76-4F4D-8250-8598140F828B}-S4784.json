@@ -1,0 +1,173 @@
+{
+"issues":  [
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMDB.vb",
+"region":  {
+"startLine":  175,
+"startColumn":  85,
+"endLine":  175,
+"endColumn":  133
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMDB.vb",
+"region":  {
+"startLine":  200,
+"startColumn":  56,
+"endLine":  200,
+"endColumn":  130
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMDB.vb",
+"region":  {
+"startLine":  248,
+"startColumn":  46,
+"endLine":  248,
+"endColumn":  87
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMDB.vb",
+"region":  {
+"startLine":  503,
+"startColumn":  89,
+"endLine":  503,
+"endColumn":  141
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMDB.vb",
+"region":  {
+"startLine":  856,
+"startColumn":  57,
+"endLine":  856,
+"endColumn":  139
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMPA.vb",
+"region":  {
+"startLine":  85,
+"startColumn":  55,
+"endLine":  85,
+"endColumn":  135
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeIMPA.vb",
+"region":  {
+"startLine":  135,
+"startColumn":  49,
+"endLine":  135,
+"endColumn":  109
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeMPDB.vb",
+"region":  {
+"startLine":  87,
+"startColumn":  55,
+"endLine":  87,
+"endColumn":  167
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeOFDB.vb",
+"region":  {
+"startLine":  200,
+"startColumn":  66,
+"endLine":  200,
+"endColumn":  160
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeTrailers.vb",
+"region":  {
+"startLine":  101,
+"startColumn":  24,
+"endLine":  101,
+"endColumn":  117
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\clsScrapeYouTube.vb",
+"region":  {
+"startLine":  149,
+"startColumn":  30,
+"endLine":  149,
+"endColumn":  74
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\dlgTrailer.vb",
+"region":  {
+"startLine":  111,
+"startColumn":  16,
+"endLine":  111,
+"endColumn":  95
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore\Scraper\dlgTrailer.vb",
+"region":  {
+"startLine":  130,
+"startColumn":  16,
+"endLine":  130,
+"endColumn":  112
+}
+}
+}
+]
+}

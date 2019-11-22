@@ -1,0 +1,223 @@
+{
+"issues":  [
+{
+"id":  "S3247",
+"message":  "Replace this type-check-and-cast sequence with an 'as' and a null check.",
+"location":  [
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  169,
+"startColumn":  17,
+"endLine":  169,
+"endColumn":  33
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  170,
+"startColumn":  38,
+"endLine":  170,
+"endColumn":  52
+}
+}
+]
+},
+{
+"id":  "S3247",
+"message":  "Replace this type-check-and-cast sequence with an 'as' and a null check.",
+"location":  [
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  185,
+"startColumn":  21,
+"endLine":  185,
+"endColumn":  34
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  186,
+"startColumn":  57,
+"endLine":  186,
+"endColumn":  68
+}
+}
+]
+},
+{
+"id":  "S3247",
+"message":  "Replace this type-check-and-cast sequence with an 'as' and a null check.",
+"location":  [
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  234,
+"startColumn":  17,
+"endLine":  234,
+"endColumn":  53
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  235,
+"startColumn":  44,
+"endLine":  235,
+"endColumn":  78
+}
+}
+]
+},
+{
+"id":  "S3247",
+"message":  "Replace this type-check-and-cast sequence with an 'as' and a null check.",
+"location":  [
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  236,
+"startColumn":  22,
+"endLine":  236,
+"endColumn":  40
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  237,
+"startColumn":  38,
+"endLine":  237,
+"endColumn":  54
+}
+}
+]
+},
+{
+"id":  "S3247",
+"message":  "Replace this type-check-and-cast sequence with an 'as' and a null check.",
+"location":  [
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  417,
+"startColumn":  17,
+"endLine":  417,
+"endColumn":  30
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  418,
+"startColumn":  41,
+"endLine":  418,
+"endColumn":  52
+}
+}
+]
+},
+{
+"id":  "S3247",
+"message":  "Replace this type-check-and-cast sequence with an 'as' and a null check.",
+"location":  [
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  363,
+"startColumn":  21,
+"endLine":  363,
+"endColumn":  42
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  371,
+"startColumn":  26,
+"endLine":  371,
+"endColumn":  45
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  375,
+"startColumn":  26,
+"endLine":  375,
+"endColumn":  45
+}
+}
+]
+},
+{
+"id":  "S3247",
+"message":  "Replace this type-check-and-cast sequence with an 'as' and a null check.",
+"location":  [
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  154,
+"startColumn":  17,
+"endLine":  154,
+"endColumn":  51
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  157,
+"startColumn":  46,
+"endLine":  157,
+"endColumn":  78
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  163,
+"startColumn":  48,
+"endLine":  163,
+"endColumn":  80
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JavaScriptSerializer.cs",
+"region":  {
+"startLine":  167,
+"startColumn":  40,
+"endLine":  167,
+"endColumn":  72
+}
+}
+]
+},
+{
+"id":  "S3247",
+"message":  "Replace this type-check-and-cast sequence with an 'as' and a null check.",
+"location":  [
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JsonDeserializer.cs",
+"region":  {
+"startLine":  377,
+"startColumn":  8,
+"endLine":  377,
+"endColumn":  42
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\Json\JsonDeserializer.cs",
+"region":  {
+"startLine":  379,
+"startColumn":  51,
+"endLine":  379,
+"endColumn":  83
+}
+}
+]
+}
+]
+}

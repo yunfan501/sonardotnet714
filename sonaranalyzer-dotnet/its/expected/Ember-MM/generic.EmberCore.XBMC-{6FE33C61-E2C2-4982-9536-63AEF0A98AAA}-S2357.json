@@ -1,0 +1,56 @@
+{
+"issues":  [
+{
+"id":  "S2357",
+"message":  "Make 'XComs' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\generic.EmberCore.XBMC\dlgXBMCHost.vb",
+"region":  {
+"startLine":  6,
+"startColumn":  12,
+"endLine":  6,
+"endColumn":  17
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'hostid' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\generic.EmberCore.XBMC\dlgXBMCHost.vb",
+"region":  {
+"startLine":  7,
+"startColumn":  12,
+"endLine":  7,
+"endColumn":  18
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'XComs' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\generic.EmberCore.XBMC\frmSettingsHolder.vb",
+"region":  {
+"startLine":  27,
+"startColumn":  12,
+"endLine":  27,
+"endColumn":  17
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'XComs' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\generic.EmberCore.XBMC\Module.XBMCxCom.vb",
+"region":  {
+"startLine":  575,
+"startColumn":  16,
+"endLine":  575,
+"endColumn":  21
+}
+}
+}
+]
+}

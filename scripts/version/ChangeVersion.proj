@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildProjectDirectory)\Version.props" />
+  <Import Project="$(MSBuildProjectDirectory)\RegexTransform.tasks" />
+  <PropertyGroup>
+    <SolutionRoot>$(MSBuildProjectDirectory)\..\..\sonaranalyzer-dotnet</SolutionRoot>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyVersion Include="$(SolutionRoot)\src\AssemblyInfo.Shared.cs">
+      <Find>(?&lt;=\[assembly\: AssemblyVersion\(")([^"]*)</Find>
+      <ReplaceWith>$(AssemblyVersion)</ReplaceWith>
+      <ExpectedMatchCount>1</ExpectedMatchCount>
+    </AssemblyVersion>
+    <AssemblyFileVersion Include="$(SolutionRoot)\src\AssemblyInfo.Shared.cs">
+      <Find>(?&lt;=\[assembly\: AssemblyFileVersion\(")([^"]*)</Find>
+      <ReplaceWith>$(AssemblyFileVersion)</ReplaceWith>
+      <ExpectedMatchCount>1</ExpectedMatchCount>
+    </AssemblyFileVersion>
+    <AssemblyInformationalVersion Include="$(SolutionRoot)\src\AssemblyInfo.Shared.cs">
+      <Find>(?&lt;=\[assembly\: AssemblyInformationalVersion\(")([^"]*)</Find>
+      <ReplaceWith>$(AssemblyInformationalVersion)</ReplaceWith>
+      <ExpectedMatchCount>1</ExpectedMatchCount>
+    </AssemblyInformationalVersion>
+
+    <VsixVersion Include="$(SolutionRoot)\src\SonarAnalyzer.Vsix\source.extension.vsixmanifest">
+      <Find>(?&lt;=Identity.*Version=")([^"]*)</Find>
+      <ReplaceWith>$(VsixVersion)</ReplaceWith>
+      <ExpectedMatchCount>1</ExpectedMatchCount>
+    </VsixVersion>
+    <VsixReleaseNotes Include="$(SolutionRoot)\src\SonarAnalyzer.Vsix\source.extension.vsixmanifest">
+      <Find>(?&lt;=&lt;ReleaseNotes&gt;https:\/\/github.com\/SonarSource\/sonar-dotnet\/releases\/tag\/)([^&lt;]*)</Find>
+      <ReplaceWith>$(NugetVersion)</ReplaceWith>
+      <ExpectedMatchCount>1</ExpectedMatchCount>
+    </VsixReleaseNotes>
+
+    <NugetAnalyzer Include="$(SolutionRoot)\src\SonarAnalyzer.Vsix\SonarAnalyzer.*.nuspec">
+      <Find>(?&lt;=&lt;version&gt;)([^&lt;]*)</Find>
+      <ReplaceWith>$(NugetVersion)</ReplaceWith>
+      <ExpectedMatchCount>1</ExpectedMatchCount>
+    </NugetAnalyzer>
+
+    <NugetReleaseNotes Include="$(SolutionRoot)\src\SonarAnalyzer.Vsix\SonarAnalyzer.*.nuspec">
+      <Find>(?&lt;=&lt;releaseNotes&gt;https:\/\/github.com\/SonarSource\/sonar-dotnet\/releases\/tag\/)([^&lt;]*)</Find>
+      <ReplaceWith>$(NugetVersion)</ReplaceWith>
+      <ExpectedMatchCount>1</ExpectedMatchCount>
+    </NugetReleaseNotes>
+
+    <NugetDescriptor Include="$(SolutionRoot)\src\SonarAnalyzer.RuleDescriptorGenerator\Descriptor.*.nuspec">
+      <Find>(?&lt;=&lt;version&gt;)([^&lt;]*)</Find>
+      <ReplaceWith>$(NugetVersion)</ReplaceWith>
+      <ExpectedMatchCount>1</ExpectedMatchCount>
+    </NugetDescriptor>
+  </ItemGroup>
+
+  <Target Name="UpdateAssemblyVersion">
+    <RegexTransform Items="@(AssemblyVersion)" />
+    <RegexTransform Items="@(AssemblyFileVersion)" />
+    <RegexTransform Items="@(AssemblyInformationalVersion)" />
+    <RegexTransform Items="@(VsixVersion)" />
+    <RegexTransform Items="@(VsixReleaseNotes)" />
+    <RegexTransform Items="@(NugetAnalyzer)" />
+    <RegexTransform Items="@(NugetReleaseNotes)" />
+    <RegexTransform Items="@(NugetDescriptor)" />
+  </Target>
+</Project>

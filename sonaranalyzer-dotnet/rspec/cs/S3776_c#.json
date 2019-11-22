@@ -1,0 +1,16 @@
+{
+  "title": "Cognitive Complexity of methods should not be too high",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "brain-overload"
+  ],
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-3776",
+  "sqKey": "S3776",
+  "scope": "All"
+}

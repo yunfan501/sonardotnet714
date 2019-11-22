@@ -1,0 +1,20 @@
+{
+  "title": "Literal suffixes should be upper case",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "convention",
+    "based-on-misra",
+    "misra",
+    "cert",
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-818",
+  "sqKey": "S818",
+  "scope": "All"
+}

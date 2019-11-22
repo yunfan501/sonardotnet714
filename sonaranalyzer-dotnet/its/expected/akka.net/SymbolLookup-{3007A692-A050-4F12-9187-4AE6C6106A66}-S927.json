@@ -1,0 +1,82 @@
+{
+"issues":  [
+{
+"id":  "S927",
+"message":  "Rename parameter 'sd' to 'message' to match the interface declaration.",
+"location":  {
+"uri":  "sources\akka.net\src\examples\Stocks\SymbolLookup\Actors\DispatcherActor.cs",
+"region":  {
+"startLine":  45,
+"startColumn":  42,
+"endLine":  45,
+"endColumn":  44
+}
+}
+},
+{
+"id":  "S927",
+"message":  "Rename parameter 'fail' to 'message' to match the interface declaration.",
+"location":  {
+"uri":  "sources\akka.net\src\examples\Stocks\SymbolLookup\Actors\DispatcherActor.cs",
+"region":  {
+"startLine":  52,
+"startColumn":  36,
+"endLine":  52,
+"endColumn":  40
+}
+}
+},
+{
+"id":  "S927",
+"message":  "Rename parameter 'cause' to 'reason' to match the base class declaration.",
+"location":  {
+"uri":  "sources\akka.net\src\examples\Stocks\SymbolLookup\Actors\TickerActors.cs",
+"region":  {
+"startLine":  69,
+"startColumn":  54,
+"endLine":  69,
+"endColumn":  59
+}
+}
+},
+{
+"id":  "S927",
+"message":  "Rename parameter 'msg' to 'message' to match the base class declaration.",
+"location":  {
+"uri":  "sources\akka.net\src\examples\Stocks\SymbolLookup\Actors\TickerActors.cs",
+"region":  {
+"startLine":  74,
+"startColumn":  50,
+"endLine":  74,
+"endColumn":  53
+}
+}
+},
+{
+"id":  "S927",
+"message":  "Rename parameter 'cause' to 'reason' to match the base class declaration.",
+"location":  {
+"uri":  "sources\akka.net\src\examples\Stocks\SymbolLookup\Actors\TickerActors.cs",
+"region":  {
+"startLine":  97,
+"startColumn":  54,
+"endLine":  97,
+"endColumn":  59
+}
+}
+},
+{
+"id":  "S927",
+"message":  "Rename parameter 'msg' to 'message' to match the base class declaration.",
+"location":  {
+"uri":  "sources\akka.net\src\examples\Stocks\SymbolLookup\Actors\TickerActors.cs",
+"region":  {
+"startLine":  102,
+"startColumn":  50,
+"endLine":  102,
+"endColumn":  53
+}
+}
+}
+]
+}

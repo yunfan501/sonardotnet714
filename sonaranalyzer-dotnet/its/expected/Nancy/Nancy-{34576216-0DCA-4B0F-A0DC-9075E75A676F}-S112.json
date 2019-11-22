@@ -1,0 +1,69 @@
+{
+"issues":  [
+{
+"id":  "S112",
+"message":  "'System.NullReferenceException' should not be thrown by user code.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Helpers\HttpUtility.cs",
+"region":  {
+"startLine":  89,
+"startColumn":  23,
+"endLine":  89,
+"endColumn":  67
+}
+}
+},
+{
+"id":  "S112",
+"message":  "'System.NullReferenceException' should not be thrown by user code.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Helpers\HttpUtility.cs",
+"region":  {
+"startLine":  538,
+"startColumn":  23,
+"endLine":  538,
+"endColumn":  67
+}
+}
+},
+{
+"id":  "S112",
+"message":  "'System.NullReferenceException' should not be thrown by user code.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Helpers\HttpUtility.cs",
+"region":  {
+"startLine":  579,
+"startColumn":  23,
+"endLine":  579,
+"endColumn":  67
+}
+}
+},
+{
+"id":  "S112",
+"message":  "'System.Exception' should not be thrown by user code.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Helpers\ReflectionUtils.cs",
+"region":  {
+"startLine":  109,
+"startColumn":  23,
+"endLine":  109,
+"endColumn":  48
+}
+}
+},
+{
+"id":  "S112",
+"message":  "'System.Exception' should not be thrown by user code.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Helpers\ReflectionUtils.cs",
+"region":  {
+"startLine":  124,
+"startColumn":  23,
+"endLine":  124,
+"endColumn":  48
+}
+}
+}
+]
+}

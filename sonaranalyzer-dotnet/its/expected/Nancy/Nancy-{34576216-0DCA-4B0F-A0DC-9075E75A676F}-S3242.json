@@ -1,0 +1,160 @@
+{
+"issues":  [
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'System.Collections.Generic.IReadOnlyDictionary<string, object>' instead of 'Nancy.Configuration.INancyEnvironment'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Configuration\INancyEnvironmentExtensions.cs",
+"region":  {
+"startLine":  39,
+"startColumn":  60,
+"endLine":  39,
+"endColumn":  71
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'System.Collections.Generic.ICollection<System.Func<Nancy.NancyContext, string, Nancy.Response>>' instead of 'System.Collections.Generic.IList<System.Func<Nancy.NancyContext, string, Nancy.Response>>'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Conventions\StaticContentsConventionsExtensions.cs",
+"region":  {
+"startLine":  18,
+"startColumn":  90,
+"endLine":  18,
+"endColumn":  101
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'System.Collections.Generic.ICollection<System.Func<Nancy.NancyContext, string, Nancy.Response>>' instead of 'System.Collections.Generic.IList<System.Func<Nancy.NancyContext, string, Nancy.Response>>'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Conventions\StaticContentsConventionsExtensions.cs",
+"region":  {
+"startLine":  29,
+"startColumn":  85,
+"endLine":  29,
+"endColumn":  96
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'Nancy.IObjectSerializer' instead of 'Nancy.DefaultObjectSerializer'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Diagnostics\DiagnosticsHook.cs",
+"region":  {
+"startLine":  191,
+"startColumn":  177,
+"endLine":  191,
+"endColumn":  187
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'System.Reflection.MemberInfo' instead of 'System.Reflection.MethodInfo'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Diagnostics\InteractiveDiagnostics.cs",
+"region":  {
+"startLine":  176,
+"startColumn":  112,
+"endLine":  176,
+"endColumn":  122
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'System.Reflection.ICustomAttributeProvider' instead of 'System.Reflection.PropertyInfo'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Diagnostics\Modules\SettingsModule.cs",
+"region":  {
+"startLine":  62,
+"startColumn":  59,
+"endLine":  62,
+"endColumn":  67
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'System.IO.Stream' instead of 'Nancy.IO.RequestStream'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Extensions\RequestStreamExtensions.cs",
+"region":  {
+"startLine":  18,
+"startColumn":  58,
+"endLine":  18,
+"endColumn":  64
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'System.Reflection.ICustomAttributeProvider' instead of 'System.Reflection.MemberInfo'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Json\JsonSerializer.cs",
+"region":  {
+"startLine":  284,
+"startColumn":  39,
+"endLine":  284,
+"endColumn":  41
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'Nancy.Routing.Trie.NodeData' instead of 'Nancy.Routing.Trie.MatchResult'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Routing\DefaultRouteResolver.cs",
+"region":  {
+"startLine":  138,
+"startColumn":  89,
+"endLine":  138,
+"endColumn":  95
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, object>>' instead of 'System.Collections.Generic.IDictionary<string, object>'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Routing\Trie\Nodes\TrieNode.cs",
+"region":  {
+"startLine":  202,
+"startColumn":  133,
+"endLine":  202,
+"endColumn":  146
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, object>>' instead of 'System.Collections.Generic.IDictionary<string, object>'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Routing\Trie\Nodes\TrieNode.cs",
+"region":  {
+"startLine":  242,
+"startColumn":  177,
+"endLine":  242,
+"endColumn":  190
+}
+}
+},
+{
+"id":  "S3242",
+"message":  "Consider using more general type 'System.Security.Principal.IPrincipal' instead of 'System.Security.Claims.ClaimsPrincipal'.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy\Security\ClaimsPrincipalExtensions.cs",
+"region":  {
+"startLine":  18,
+"startColumn":  65,
+"endLine":  18,
+"endColumn":  69
+}
+}
+}
+]
+}

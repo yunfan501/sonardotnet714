@@ -1,0 +1,28 @@
+{
+"issues":  [
+{
+"id":  "S4457",
+"message":  "Split this method into two, one handling parameters check and the other handling the asynchronous code.",
+"location":  [
+{
+"uri":  "sources\Nancy\src\Nancy\NancyEngine.cs",
+"region":  {
+"startLine":  102,
+"startColumn":  41,
+"endLine":  102,
+"endColumn":  54
+}
+},
+{
+"uri":  "sources\Nancy\src\Nancy\NancyEngine.cs",
+"region":  {
+"startLine":  110,
+"startColumn":  27,
+"endLine":  110,
+"endColumn":  104
+}
+}
+]
+}
+]
+}

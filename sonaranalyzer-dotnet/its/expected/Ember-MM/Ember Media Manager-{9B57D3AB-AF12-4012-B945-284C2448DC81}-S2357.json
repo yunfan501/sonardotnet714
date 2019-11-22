@@ -1,0 +1,69 @@
+{
+"issues":  [
+{
+"id":  "S2357",
+"message":  "Make 'ShowRegex' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Ember%20Media%20Manager\dlgTVRegExProfiles.vb",
+"region":  {
+"startLine":  7,
+"startColumn":  12,
+"endLine":  7,
+"endColumn":  21
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Profiles' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Ember%20Media%20Manager\dlgTVRegExProfiles.vb",
+"region":  {
+"startLine":  71,
+"startColumn":  16,
+"endLine":  71,
+"endColumn":  24
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Name' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Ember%20Media%20Manager\dlgTVRegExProfiles.vb",
+"region":  {
+"startLine":  74,
+"startColumn":  16,
+"endLine":  74,
+"endColumn":  20
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Description' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Ember%20Media%20Manager\dlgTVRegExProfiles.vb",
+"region":  {
+"startLine":  75,
+"startColumn":  16,
+"endLine":  75,
+"endColumn":  27
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ShowRegex' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Ember%20Media%20Manager\dlgTVRegExProfiles.vb",
+"region":  {
+"startLine":  76,
+"startColumn":  16,
+"endLine":  76,
+"endColumn":  25
+}
+}
+}
+]
+}

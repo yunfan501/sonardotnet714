@@ -1,0 +1,173 @@
+{
+"issues":  [
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\Scraper.vb",
+"region":  {
+"startLine":  283,
+"startColumn":  42,
+"endLine":  283,
+"endColumn":  112
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\ScraperFunction.vb",
+"region":  {
+"startLine":  338,
+"startColumn":  36,
+"endLine":  338,
+"endColumn":  76
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\ScraperFunction.vb",
+"region":  {
+"startLine":  347,
+"startColumn":  36,
+"endLine":  347,
+"endColumn":  76
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\ScraperFunction.vb",
+"region":  {
+"startLine":  358,
+"startColumn":  40,
+"endLine":  358,
+"endColumn":  84
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\ScraperFunction.vb",
+"region":  {
+"startLine":  366,
+"startColumn":  40,
+"endLine":  366,
+"endColumn":  88
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\ScraperFunction.vb",
+"region":  {
+"startLine":  375,
+"startColumn":  36,
+"endLine":  375,
+"endColumn":  94
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\ScraperRegExp.vb",
+"region":  {
+"startLine":  453,
+"startColumn":  30,
+"endLine":  453,
+"endColumn":  61
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\ScraperRegExp.vb",
+"region":  {
+"startLine":  500,
+"startColumn":  39,
+"endLine":  500,
+"endColumn":  90
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\ScraperRegExp.vb",
+"region":  {
+"startLine":  501,
+"startColumn":  39,
+"endLine":  501,
+"endColumn":  88
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\ScraperRegExp.vb",
+"region":  {
+"startLine":  546,
+"startColumn":  39,
+"endLine":  546,
+"endColumn":  90
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\ScraperRegExp.vb",
+"region":  {
+"startLine":  547,
+"startColumn":  39,
+"endLine":  547,
+"endColumn":  88
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\Utilities\Util.vb",
+"region":  {
+"startLine":  167,
+"startColumn":  40,
+"endLine":  167,
+"endColumn":  80
+}
+}
+},
+{
+"id":  "S4784",
+"message":  "Make sure that using a regular expression is safe here.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\Utilities\Util.vb",
+"region":  {
+"startLine":  208,
+"startColumn":  40,
+"endLine":  208,
+"endColumn":  80
+}
+}
+}
+]
+}

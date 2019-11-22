@@ -1,0 +1,27 @@
+{
+  "title": "\"switch\/Select\" statements should contain a \"default\/Case Else\" clauses",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "based-on-misra",
+    "misra",
+    "cert"
+  ],
+  "standards": [
+    "CWE"
+  ],
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-131",
+  "sqKey": "S131",
+  "scope": "All",
+  "securityStandards": {
+    "CWE": [
+      478
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+"issues":  [
+{
+"id":  "S1694",
+"message":  "Convert this 'abstract' class to a concrete class with a protected constructor.",
+"location":  {
+"uri":  "sources\Nancy\src\Nancy.Demo.CustomModule\UglifiedNancyModule.cs",
+"region":  {
+"startLine":  22,
+"startColumn":  27,
+"endLine":  22,
+"endColumn":  46
+}
+}
+}
+]
+}

@@ -1,0 +1,719 @@
+{
+"issues":  [
+{
+"id":  "S2357",
+"message":  "Make 'DefaultValue' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAdvancedSettings.vb",
+"region":  {
+"startLine":  404,
+"startColumn":  16,
+"endLine":  404,
+"endColumn":  28
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Name' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAdvancedSettings.vb",
+"region":  {
+"startLine":  405,
+"startColumn":  16,
+"endLine":  405,
+"endColumn":  20
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Section' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAdvancedSettings.vb",
+"region":  {
+"startLine":  406,
+"startColumn":  16,
+"endLine":  406,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Value' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAdvancedSettings.vb",
+"region":  {
+"startLine":  407,
+"startColumn":  16,
+"endLine":  407,
+"endColumn":  21
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Name' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAdvancedSettings.vb",
+"region":  {
+"startLine":  411,
+"startColumn":  16,
+"endLine":  411,
+"endColumn":  20
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Section' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAdvancedSettings.vb",
+"region":  {
+"startLine":  412,
+"startColumn":  16,
+"endLine":  412,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'TableItem' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAdvancedSettings.vb",
+"region":  {
+"startLine":  413,
+"startColumn":  16,
+"endLine":  413,
+"endColumn":  25
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Command' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPICommon.vb",
+"region":  {
+"startLine":  40,
+"startColumn":  16,
+"endLine":  40,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'CommandDescription' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPICommon.vb",
+"region":  {
+"startLine":  70,
+"startColumn":  16,
+"endLine":  70,
+"endColumn":  34
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'CommandExecute' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPICommon.vb",
+"region":  {
+"startLine":  72,
+"startColumn":  16,
+"endLine":  72,
+"endColumn":  30
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'CommandType' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPICommon.vb",
+"region":  {
+"startLine":  74,
+"startColumn":  16,
+"endLine":  74,
+"endColumn":  27
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Saved' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  38,
+"startColumn":  12,
+"endLine":  38,
+"endColumn":  17
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'MediaType' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  40,
+"startColumn":  12,
+"endLine":  40,
+"endColumn":  21
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'MediaID' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  41,
+"startColumn":  12,
+"endLine":  41,
+"endColumn":  19
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ID' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  43,
+"startColumn":  12,
+"endLine":  43,
+"endColumn":  14
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'LastDateAdd' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  44,
+"startColumn":  12,
+"endLine":  44,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'LogItems' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  45,
+"startColumn":  12,
+"endLine":  45,
+"endColumn":  20
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Saved' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  49,
+"startColumn":  16,
+"endLine":  49,
+"endColumn":  21
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ID' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  50,
+"startColumn":  16,
+"endLine":  50,
+"endColumn":  18
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ItemType' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  51,
+"startColumn":  16,
+"endLine":  51,
+"endColumn":  24
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Message' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  52,
+"startColumn":  16,
+"endLine":  52,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Details' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  53,
+"startColumn":  16,
+"endLine":  53,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'DateAdd' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPILog.vb",
+"region":  {
+"startLine":  54,
+"startColumn":  16,
+"endLine":  54,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'MovieID' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIMediaContainers.vb",
+"region":  {
+"startLine":  425,
+"startColumn":  16,
+"endLine":  425,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'externalProcessorModules' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  35,
+"startColumn":  12,
+"endLine":  35,
+"endColumn":  36
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'externalScrapersModules' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  36,
+"startColumn":  12,
+"endLine":  36,
+"endColumn":  35
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'externalTVScrapersModules' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  37,
+"startColumn":  12,
+"endLine":  37,
+"endColumn":  37
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'RuntimeObjects' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  38,
+"startColumn":  12,
+"endLine":  38,
+"endColumn":  26
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'AssemblyFileName' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  777,
+"startColumn":  16,
+"endLine":  777,
+"endColumn":  32
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'AssemblyName' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  780,
+"startColumn":  16,
+"endLine":  780,
+"endColumn":  28
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ModuleOrder' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  781,
+"startColumn":  16,
+"endLine":  781,
+"endColumn":  27
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ProcessorModule' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  782,
+"startColumn":  16,
+"endLine":  782,
+"endColumn":  31
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Type' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  783,
+"startColumn":  16,
+"endLine":  783,
+"endColumn":  20
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'AssemblyFileName' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  793,
+"startColumn":  16,
+"endLine":  793,
+"endColumn":  32
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'AssemblyName' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  794,
+"startColumn":  16,
+"endLine":  794,
+"endColumn":  28
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'PostScraperOrder' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  795,
+"startColumn":  16,
+"endLine":  795,
+"endColumn":  32
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ProcessorModule' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  796,
+"startColumn":  16,
+"endLine":  796,
+"endColumn":  31
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ScraperOrder' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  797,
+"startColumn":  16,
+"endLine":  797,
+"endColumn":  28
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'AssemblyFileName' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  807,
+"startColumn":  16,
+"endLine":  807,
+"endColumn":  32
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'AssemblyName' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  808,
+"startColumn":  16,
+"endLine":  808,
+"endColumn":  28
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'PostScraperOrder' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  809,
+"startColumn":  16,
+"endLine":  809,
+"endColumn":  32
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ProcessorModule' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  810,
+"startColumn":  16,
+"endLine":  810,
+"endColumn":  31
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ScraperOrder' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  811,
+"startColumn":  16,
+"endLine":  811,
+"endColumn":  28
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'AssemblyFileName' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  822,
+"startColumn":  16,
+"endLine":  822,
+"endColumn":  32
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'AssemblyName' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  823,
+"startColumn":  16,
+"endLine":  823,
+"endColumn":  28
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'Enabled' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  824,
+"startColumn":  16,
+"endLine":  824,
+"endColumn":  23
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'PostScraperEnabled' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  825,
+"startColumn":  16,
+"endLine":  825,
+"endColumn":  34
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'PostScraperOrder' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  826,
+"startColumn":  16,
+"endLine":  826,
+"endColumn":  32
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ScraperEnabled' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  827,
+"startColumn":  16,
+"endLine":  827,
+"endColumn":  30
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ScraperOrder' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIModules.vb",
+"region":  {
+"startLine":  828,
+"startColumn":  16,
+"endLine":  828,
+"endColumn":  28
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'htTVShows' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIScanner.vb",
+"region":  {
+"startLine":  29,
+"startColumn":  12,
+"endLine":  29,
+"endColumn":  21
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'MoviePaths' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIScanner.vb",
+"region":  {
+"startLine":  30,
+"startColumn":  12,
+"endLine":  30,
+"endColumn":  22
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'ShowPath' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIScanner.vb",
+"region":  {
+"startLine":  31,
+"startColumn":  12,
+"endLine":  31,
+"endColumn":  20
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'SourceLastScan' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIScanner.vb",
+"region":  {
+"startLine":  32,
+"startColumn":  12,
+"endLine":  32,
+"endColumn":  26
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'TVPaths' private.",
+"location":  {
+"uri":  "sources\Ember-MM\EmberAPI\clsAPIScanner.vb",
+"region":  {
+"startLine":  33,
+"startColumn":  12,
+"endLine":  33,
+"endColumn":  19
+}
+}
+}
+]
+}

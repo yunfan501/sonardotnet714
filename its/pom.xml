@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.sonarsource.parent</groupId>
+    <artifactId>parent</artifactId>
+    <version>49</version>
+  </parent>
+
+  <groupId>com.sonarsource.it</groupId>
+  <artifactId>it-csharp-plugin</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>SonarSource :: C# :: ITs :: Plugin</name>
+  <inceptionYear>2011</inceptionYear>
+  <organization>
+    <name>SonarSource</name>
+    <url>http://www.sonarsource.com</url>
+  </organization>
+
+  <properties>
+    <scannerMsbuild.version>4.3.1.1372</scannerMsbuild.version>
+    <surefire.argLine>-server</surefire.argLine>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.sonarsource.orchestrator</groupId>
+      <artifactId>sonar-orchestrator</artifactId>
+      <version>3.24.0.1993</version>
+    </dependency>
+    <dependency>
+      <groupId>org.sonarsource.scanner.msbuild</groupId>
+      <artifactId>sonar-scanner-msbuild</artifactId>
+      <version>${scannerMsbuild.version}</version>
+      <type>zip</type>
+      <classifier>net46</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.sonarsource.sonarqube</groupId>
+      <artifactId>sonar-ws</artifactId>
+      <version>5.6</version>
+      <exclusions>
+        <exclusion>
+          <groupId>com.google.protobuf</groupId>
+          <artifactId>protobuf-java</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.sonarsource.ucfg</groupId>
+      <artifactId>sonar-ucfg</artifactId>
+      <version>1.2.0.107</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.6.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.2</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <configuration>
+            <includes>
+              <include>com/sonar/it/csharp/Tests.java</include>
+              <include>com/sonar/it/vbnet/Tests.java</include>
+            </includes>
+            <systemProperties>
+              <scannerMsbuild.version>${scannerMsbuild.version}</scannerMsbuild.version>
+            </systemProperties>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>3.0.1</version>
+        <executions>
+          <execution>
+            <id>get-scanner-2.1</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>get</goal>
+            </goals>
+            <configuration>
+              <artifactId>sonar-scanner-msbuild</artifactId>
+              <groupId>org.sonarsource.scanner.msbuild</groupId>
+              <packaging>zip</packaging>
+              <version>2.1.0.0</version>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

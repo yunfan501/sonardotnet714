@@ -1,0 +1,56 @@
+{
+"issues":  [
+{
+"id":  "S122",
+"message":  "Reformat the code to have only one statement per line.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\multi.Compatibility\genericBoxee.vb",
+"region":  {
+"startLine":  46,
+"startColumn":  4,
+"endLine":  46,
+"endColumn":  35
+}
+}
+},
+{
+"id":  "S122",
+"message":  "Reformat the code to have only one statement per line.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\multi.Compatibility\genericMediaBrowser.vb",
+"region":  {
+"startLine":  53,
+"startColumn":  4,
+"endLine":  53,
+"endColumn":  35
+}
+}
+},
+{
+"id":  "S122",
+"message":  "Reformat the code to have only one statement per line.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\multi.Compatibility\genericMediaBrowser.vb",
+"region":  {
+"startLine":  630,
+"startColumn":  4,
+"endLine":  630,
+"endColumn":  145
+}
+}
+},
+{
+"id":  "S122",
+"message":  "Reformat the code to have only one statement per line.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\multi.Compatibility\genericYAMJ.vb",
+"region":  {
+"startLine":  30,
+"startColumn":  4,
+"endLine":  30,
+"endColumn":  35
+}
+}
+}
+]
+}

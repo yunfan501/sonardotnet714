@@ -1,0 +1,43 @@
+{
+"issues":  [
+{
+"id":  "S2357",
+"message":  "Make 'parentRunning' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\frmXMLMediaSettingsHolder.vb",
+"region":  {
+"startLine":  27,
+"startColumn":  12,
+"endLine":  27,
+"endColumn":  25
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'parentRunning' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\frmXMLSettingsHolder.vb",
+"region":  {
+"startLine":  27,
+"startColumn":  12,
+"endLine":  27,
+"endColumn":  25
+}
+}
+},
+{
+"id":  "S2357",
+"message":  "Make 'pContent' private.",
+"location":  {
+"uri":  "sources\Ember-MM\Addons\scraper.EmberCore.XML\XMLScraper\ScraperLib\Scraper.vb",
+"region":  {
+"startLine":  45,
+"startColumn":  20,
+"endLine":  45,
+"endColumn":  28
+}
+}
+}
+]
+}
